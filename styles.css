@@ -8,7 +8,7 @@
 .stattable {
   background: rgba(54, 54, 54, 0.4);
   border: 1px solid #ddd;
-  overflow-x:auto;
+  
 }
 
 .stattable table{
@@ -16,6 +16,7 @@
   border-spacing: 0;
   width: 100%;
   color: yellow;
+  overflow-x:auto;
 }
 
 h1{
