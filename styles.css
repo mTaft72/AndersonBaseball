@@ -4,6 +4,11 @@
   background-size: cover;
 }
 
+.overlay {
+  width: 100%;
+  background: rgba(54, 54, 54, 0.6);
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
