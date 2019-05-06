@@ -1,3 +1,5 @@
 .backgroundimage{
-  background: url(baseball.jpg);
+  background-image: url(baseball.jpg);
+  background-position: center center;
+  background-size: cover;
 }
