@@ -5,15 +5,13 @@
   background-attachment: fixed;
 }
 
-.kidpic{
-  background-image: url(Anderson.jpg);
-  min-height: 100%;
-  background-size: cover;
+.personalpic{
+  width: 50%;
+  max-width:400px;
 }
 
-.personalpic{
-  height:25%;
-  width:10%;
+.personalpic img{
+  max-width:100%;
 }
 
 .stattable {
@@ -32,6 +30,7 @@
 
 h1{
   color: black;
+  text-align: center;
 }
 
 th, td {
