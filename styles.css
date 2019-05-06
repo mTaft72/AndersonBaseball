@@ -2,12 +2,14 @@
   background-image: url(baseball.jpg);
   background-position: center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .stattable {
   background: rgba(54, 54, 54, 0.4);
   border: 1px solid #ddd;
   overflow-x:auto;
+  color: white;
 }
 
 .stattable table{
