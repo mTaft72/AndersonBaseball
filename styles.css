@@ -32,6 +32,19 @@ body {
   overflow-x:auto;
 }
 
+.cliptable {
+  background: rgba(54, 54, 54, 0.4);
+  border: 1px solid #ddd;
+}
+
+.cliptable table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 35%;
+  color: black;
+  overflow-x:auto;
+}
+
 .redtext{
   color: red;
 }
