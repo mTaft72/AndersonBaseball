@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 10px 20px;
+}
+
 .backgroundimage{
   background-image: url(baseball.jpg);
   background-position: bottom center;
@@ -27,12 +32,21 @@
   overflow-x:auto;
 }
 
+.redtext{
+  color: red;
+}
+
 h1{
   color: black;
   text-align: center;
 }
 
+h2{
+  color: yellow;
+  text-align: center;
+}
+
 th, td {
-  text-align: middle;
+  text-align: center;
   padding: 8px;
 }
