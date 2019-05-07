@@ -27,7 +27,7 @@ body {
 }
 
 .stattable {
-  background: rgba(54, 54, 54, 0.4);
+  background: rgba(54, 54, 54, 0.6);
   border: 1px solid #ddd;
 }
 
@@ -55,12 +55,12 @@ li span{
 }
 
 .cliptable{
-  background: rgba(54, 54, 54, 0.4);
+  background: rgba(54, 54, 54, 0.6);
   flex-grow:1;
 }
 
 .biotable{
-  background: rgba(54, 54, 54, 0.4);
+  background: rgba(54, 54, 54, 0.6);
   flex-grow:1;
 }
 
@@ -83,11 +83,21 @@ h1{
 }
 
 h2{
-  color: yellow;
+  color: black;
   text-align: center;
 }
 
 th, td {
   text-align: center;
   padding: 8px;
+}
+
+table th{
+  font-weight: 700;
+  color:black;
+}
+
+.opponentname{
+  font-weight: 700;
+  color:black;
 }
