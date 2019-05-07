@@ -64,9 +64,13 @@ a{
   color:yellow;
 }
 
+<<<<<<< HEAD
 a:hover{
   color:pink;
 }
+=======
+
+>>>>>>> d74d59f55a82d1b502315d9f6e7d2c03db566c8b
 .redtext{
   color: red;
 }
