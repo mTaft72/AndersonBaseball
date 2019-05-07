@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 10px 20px;
+  color:yellow;
 }
 
 .container{
@@ -18,6 +19,7 @@ body {
 .personalpic{
   width: 50%;
   max-width:400px;
+  margin-right: 20px;
 }
 
 .personalpic img{
@@ -33,7 +35,6 @@ body {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  color: yellow;
   overflow-x:auto;
 }
 
@@ -44,6 +45,10 @@ body {
 ul{
   list-style: none;
   font-size: 18px;
+}
+
+li span{
+  color:black;
 }
 
 .cliptable{
@@ -58,19 +63,13 @@ ul{
 
 .picandvid {
  display: flex;
+ margin-bottom: 20px;
 }
 
 a{
-  color:yellow;
+  color:blue;
 }
 
-<<<<<<< HEAD
-a:hover{
-  color:pink;
-}
-=======
-
->>>>>>> d74d59f55a82d1b502315d9f6e7d2c03db566c8b
 .redtext{
   color: red;
 }
