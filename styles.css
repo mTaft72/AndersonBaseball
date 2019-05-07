@@ -3,6 +3,11 @@ body {
   padding: 10px 20px;
 }
 
+.container{
+  margin:0 auto;
+  max-width: 1200px;
+}
+
 .backgroundimage{
   background-image: url(baseball.jpg);
   background-position: bottom center;
@@ -32,19 +37,36 @@ body {
   overflow-x:auto;
 }
 
-.cliptable {
+.biotable span{
+  font-weight: 700;
+}
+
+ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+.cliptable{
   background: rgba(54, 54, 54, 0.4);
-  border: 1px solid #ddd;
+  flex-grow:1;
 }
 
-.cliptable table{
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 35%;
-  color: black;
-  overflow-x:auto;
+.biotable{
+  background: rgba(54, 54, 54, 0.4);
+  flex-grow:1;
 }
 
+.picandvid {
+ display: flex;
+}
+
+a{
+  color:yellow;
+}
+
+a:hover{
+  color:pink;
+}
 .redtext{
   color: red;
 }
