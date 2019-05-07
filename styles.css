@@ -42,6 +42,9 @@ body {
   font-weight: 700;
 }
 
+.biotable{
+  border: 1px solid #ddd;
+}
 ul{
   list-style: none;
   font-size: 18px;
@@ -63,6 +66,7 @@ li span{
 
 .picandvid {
  margin-bottom: 20px;
+ display: flex;
 }
 
 a{
